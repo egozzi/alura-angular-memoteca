@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Pensamento} from "../pensamento";
-import {PensamentoService} from "../../../../../services/services/pensamentos/pensamento.service";
+import {PensamentoService} from "../../../services/services/pensamentos/pensamento.service";
 import {ActivatedRoute, Router} from "@angular/router";
 
 @Component({
@@ -14,7 +14,8 @@ export class ExcluirPensamentoComponent implements OnInit {
     id: 0,
     conteudo: '',
     autoria: '',
-    modelo: ''
+    modelo: '',
+    favorito: false
   }
   constructor(private service: PensamentoService,
               private router: Router,

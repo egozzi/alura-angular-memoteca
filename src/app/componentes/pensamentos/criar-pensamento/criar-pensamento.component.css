@@ -1,17 +1,21 @@
 .acoes {
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .botao {
   margin: 5px;
+  margin-top: 70px;
+  width: 200px;
 }
 
-.editar-pensamentos {
+.criar-pensamentos {
   padding: 2rem 0;
 }
 
-.editar-pensamentos form {
+.criar-pensamentos form {
   background: #C4EDFF;
 
   border: none;
@@ -23,13 +27,13 @@
   padding: 2rem;
 }
 
-.editar-pensamentos form label {
+.criar-pensamentos form label {
   color: #154580;
   font-weight: bold;
   margin: 0 0 1rem;
 }
 
-.editar-pensamentos form .input {
+.criar-pensamentos form .input {
   border: none;
   height: 40px;
   padding: 1rem 2rem;
@@ -38,7 +42,7 @@
 }
 
 
-.editar-pensamentos form .textarea {
+.criar-pensamentos form .textarea {
   border: none;
   padding: 1rem 2rem;
   border-radius: 20px;
@@ -128,4 +132,18 @@ input[type='radio']:checked+.custom-radio {
 
 input[type='radio']:checked+.custom-radio span {
   background: #154580;
+}
+
+.mensagem__erro {
+  font-size: 12px;
+  margin-left: 5px;
+  color: red;
+  margin-top: -25px;
+  margin-bottom: 20px;
+}
+
+.botao__desabilitado {
+  margin: 5px;
+  margin-top: 70px;
+  width: 200px;
 }

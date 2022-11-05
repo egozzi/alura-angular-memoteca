@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {CriarPensamentoComponent} from "./componentes/componentes/componentes/pensamentos/criar-pensamento/criar-pensamento.component";
-import {ListarPensamentosComponent} from "./componentes/componentes/componentes/pensamentos/listar-pensamentos/listar-pensamentos.component";
+import {CriarPensamentoComponent} from "./componentes/pensamentos/criar-pensamento/criar-pensamento.component";
+import {ListarPensamentosComponent} from "./componentes/pensamentos/listar-pensamentos/listar-pensamentos.component";
 import {
   ExcluirPensamentoComponent
-} from "./componentes/componentes/componentes/pensamentos/excluir-pensamento/excluir-pensamento.component";
+} from "./componentes/pensamentos/excluir-pensamento/excluir-pensamento.component";
 import {
   EditarPensamentoComponent
-} from "./componentes/componentes/componentes/pensamentos/editar-pensamento/editar-pensamento.component";
+} from "./componentes/pensamentos/editar-pensamento/editar-pensamento.component";
 
 const routes: Routes = [
   {
